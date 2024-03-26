@@ -3,8 +3,6 @@ const btnCheckout = document.getElementById("btn-checkout");
 const frame = document.getElementById("div-frame");
 
 const Block = document.createElement("iframe");
-const testt = process.env.API_KEY_PUBLIC;
-console.log(testt);
 
 const customersApi = async () => {
   const cardData = {
